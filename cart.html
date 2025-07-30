@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script><!--link the index with js-->
+    <link rel="icon" type="image/x-icon" href="images/Nemos kitchen.jpg" />
+    <title>Cart</title>
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a class="active" href="cart.html">Cart</a></li>
+    <a class="home" href="index.html"><img src="images/Nemos kitchen.jpg" alt=""></a>
+</ul>
+
+<div class="controls">
+    <button id="clear-cart">Clear Cart</button>
+</div>
+
+<div id="main-content">
+    <div class="cart-container" id="cart-container">
+    <!--Food items will be added here-->
+    </div>
+
+    <!--User input section now at the bottom-->
+    <div id="user-form" style="margin: 30px;">
+        <h3>Enter your information</h3>
+        <input type="text" placeholder="Your Name" class="user-name" style="display: block; margin: 10px 0; padding: 8px;">
+        <input type="text" placeholder="Your Address" class="user-address" style="display: block; margin: 10px 0; padding: 8px;">
+        <input type="tel" placeholder="Your Telephone Number" class="user-phone" style="display: block; margin: 10px 0; padding: 8px;">
+    </div>
+
+    <button id="submit-order" style="margin: 20px; padding: 10px 20px; font-size: 16px; background-color: green; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Submit Order
+    </button>
+</div>
+        <footer class="footer">
+    <p>Phone: 01234567890</p>
+    <p>Email: omaromarmohamed2019@gmail.com</p>
+    <p>Facebook: <a href="https://web.facebook.com/profile.php?id=100085616314459" target="_blank">Visit our page</a></p>
+</footer>
+</body>
+</html>
